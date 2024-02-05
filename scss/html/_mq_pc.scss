@@ -1,0 +1,11 @@
+@media screen and (min-width: 1024px) {
+    .contenedor-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+
+}

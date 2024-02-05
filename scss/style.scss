@@ -1,0 +1,36 @@
+@import "utilidades/reset";
+
+@import "utilidades/variables";
+
+@import "html/home";
+@import "html/mq_tablet";
+@import "html/mq_pc";
+
+
+h2 {
+    color: brown;
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-family: cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+}
+
+h4 {
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    margin-bottom: 3rem;
+}
