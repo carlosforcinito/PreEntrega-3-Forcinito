@@ -1,0 +1,25 @@
+.grid-container-tienda {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.grid-item-tienda {
+    position: relative;
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    h4 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 95%;
+        margin-top: 0.2rem;
+    }
+}
+
+
+
+

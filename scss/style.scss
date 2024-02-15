@@ -2,15 +2,32 @@
 
 @import "utilidades/variables";
 
+@import "html/personalizadas";
 @import "html/home";
+@import "html/tienda";
 @import "html/mq_tablet";
 @import "html/mq_pc";
+@import "html/faqs";
+@import "html/contacto";
 
+
+// Estilos comunes
 
 h2 {
     color: brown;
     font-family: cursive;
     font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    color: brown;
+    font-family: cursive;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
     margin-left: 3rem;
@@ -33,4 +50,38 @@ h4 {
     color: black;
     text-align: center;
     margin-bottom: 3rem;
+}
+
+.nav-align {
+    justify-content: end;
+}
+
+.fuente-navbar {
+    color: brown;
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.footer-img-1 {
+    width: 3em;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.nav-link:hover {
+    background-color: brown;
+    border-radius: 6px;
+}
+
+.nav-link {
+    color: black;
 }

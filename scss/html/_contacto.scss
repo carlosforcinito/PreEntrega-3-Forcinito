@@ -1,0 +1,76 @@
+.contenedor-contacto { 
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contenido-contacto {
+    display: grid;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+    margin-bottom: 3rem;
+    
+    div{
+        
+        height: 90%;
+        background-color: rgba(0,0,0,0);
+  
+        
+            ul {
+                background-color: rgba(0,0,0,0);
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+
+                background-image: url("../../img/back-madera.jpg");
+
+                justify-content: center;
+                padding-top: 1.5rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+                li {
+                    list-style: none;
+                    background-color: rgba(0,0,0,0);
+                    margin-bottom: 100rem;
+                    margin-bottom: 1rem;
+                    background-size: cover;
+
+
+                    p {
+                        background-color: rgba(0,0,0,0);
+                        font-weight: bold;
+
+                        span {
+                            background-color: rgba(0,0,0,0);  
+                        }
+                    }
+                }
+            }
+
+            h2 {
+                background-color: rgba(0,0,0,0);
+                align-items: center;
+                justify-content: center;
+            }
+    }
+
+    .contenido-mapa {
+        margin-top: 2rem;
+
+
+        div {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+
+            iframe {
+                width: 100%;
+
+            }
+        }
+    }
+}

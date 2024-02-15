@@ -1,5 +1,23 @@
 @media screen and (min-width: 800px) {
 
-    
+    .contenedor-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50% 50%;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .imagen-home-1 {
+        grid-column: span 2;
+    }
+
+    .grid-container-tienda {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 
 }
