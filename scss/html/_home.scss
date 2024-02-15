@@ -1,35 +1,25 @@
 @import "../utilidades/variables";
 
 
-body {
-    background-color: white
-}
-
 
 header {
-    display: block;
-    align-items: center;
-    background-color: white;
+            display: block;
+            align-items: center;
+            background-color: white;
 
-    img {
-        height: 15rem;
-        display: flex;
-    }
+            img {
+                height: 15rem;
+                display: flex;
+                }
 
-    nav {
-        background-color: white;
-    }
-}
+            nav {
+                background-color: white;
+                }
+        }
 
-.fuente-navbar {
-    color: black;
-    font-family: cursive;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
 
-.botn-color {
-    color: black;
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
 }
 
 .contenedor-section {
@@ -44,17 +34,4 @@ header {
     margin-bottom: 0.5rem;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    
-}
-
-.footer-img-1 {
-    width: 3em;
-    margin-bottom: 1rem;
-    align-items: center;
-}
 
